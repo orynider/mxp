@@ -1,0 +1,42 @@
+<!-- IF S_DISPLAY_ONLINE_LIST -->
+	<br clear="all" />
+	
+	<div class="stat-block online-list bg2">	
+		<div class="box">
+		<dt class="row2 cat cattitle">
+			<!-- IF U_VIEWONLINE -->
+			<h4>
+			<a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a>
+			</h4>
+			<!-- ELSE -->
+			<h4>{L_WHO_IS_ONLINE}</h4>
+			<!-- ENDIF -->
+		</dt>
+
+		<dt class="row1">
+			<img src="{T_THEME_PATH}/images/whosonline.gif" alt="{L_WHO_IS_ONLINE}" />
+		</dt>
+		<p class="stat-block online-list row2 bg2">
+			
+			<!-- EVENT index_body_block_online_prepend -->
+			{TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br />{RECORD_USERS}<br /> 
+			<!-- IF U_VIEWONLINE -->
+				<br />{LOGGED_IN_USER_LIST}
+			<!-- ENDIF -->
+			<!-- EVENT index_body_block_online_append -->
+			
+		</p>
+
+	<!-- IF LEGEND -->
+
+			<p class="stat-block online-list row1 bg1">
+				<b>
+				<br />
+				<em>{L_LEGEND}{L_COLON} {LEGEND}</em>
+				</b>
+			</p>
+
+	<!-- ENDIF -->
+		</div>
+	</div>
+<!-- ENDIF -->
