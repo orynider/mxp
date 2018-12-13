@@ -11,9 +11,11 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	color: #000;
-	line-height: 85%;
-	background: #ffffff url(/templates/mxp/images/theme/bg.gif) top left repeat-x;
+	line-height: 75%/150%;
+	text-align: justify;
+	margin: 0px auto;
+	font-size: 12.5px;
+	background-image: url(/styles/mxp/images/theme/bg.gif) top left repeat-x;
 	/*background: #f0f0f0;*/
 
 	scrollbar-face-color: #DEE3E7;
@@ -24,8 +26,6 @@ body{
 	scrollbar-track-color: #EFEFEF;
 	scrollbar-darkshadow-color: #98AAB1;
 }
-
-
 
 #pageheader { }
 #pagecontent { }
@@ -43,22 +43,22 @@ html {
 	height: 101%;
 }
 
-
-
 h1 {
 	/* Forum name */
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	font-size: 300%;
+	text-decoration: none; 
+	line-height : 120%; 
 	margin-right: 200px;
 	margin-top: 15px;
-	font-weight: bold;
-	font-size: 2em;
 }
 
 h2 {
 	/* Forum header titles */
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size: 2em;
+	font-size: 200%;
 	margin: 0.8em 0 0.2em 0;
 }
 
@@ -74,14 +74,24 @@ h3 {
 	border-bottom: 1px solid transparent;
 	margin-bottom: 3px;
 	padding-bottom: 2px;
-	font-size: 1.05em;
+	font-size: 160%;
 	margin-top: 20px;
 }
 
 h4 {
 	/* Forum and topic list titles */
 	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;
-	font-size: 1.3em;
+	font-size: 120%;
+}
+
+h5 { 
+
+	font-size: 100%; 
+}
+
+h6 { 
+
+	font-size: 80%;  
 }
 
 p {
@@ -194,6 +204,20 @@ a:hover	{ text-decoration: underline; }
 	margin-top: 20px;
 }
 
+/* Site description and logo */
+.site-description {
+	float: left;
+	width: 65%;
+}
+
+.site-description h1 {
+	/* site-description */
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 140%;
+	margin-right: 0;
+}
+
 .logo {
 	float: left;
 	width: auto;
@@ -210,15 +234,6 @@ a:hover	{ text-decoration: underline; }
 	height: 52px;
 }
 
-/* Site description and logo */
-.site-description {
-	float: left;
-	width: 65%;
-}
-
-.site-description h1 {
-	margin-right: 0;
-}
 
 
 
@@ -1366,7 +1381,7 @@ body.mceContentBody {
 	margin: 0px;
 	width: 100%;
 
-	/* background: url(/templates/mxp/images/theme/leftcol.gif) -195px repeat-y; */
+	/* background: url(/styles/mxp/images/theme/leftcol.gif) -195px repeat-y; */
 }
 
 /* Columns */
@@ -1381,7 +1396,7 @@ body.mceContentBody {
 	border-top: 1px solid #a1a1a1;
 	border-bottom: 1px solid #a1a1a1;
 
-	background: url(/templates/mxp/images/theme/leftcol.gif)  repeat-y;
+	background: url(/styles/mxp/images/theme/leftcol.gif)  repeat-y;
 
 	overflow:hidden;
 	z-index: 10;
@@ -1525,7 +1540,7 @@ div.blockcontainer{
 }
 
 #subheader{
-	/*background: transparent url('/templates/mxp/images/theme/leftcol.gif') repeat-y;*/
+	/*background: transparent url('/styles/mxp/images/theme/leftcol.gif') repeat-y;*/
 	margin: 0px;
 	padding: 0px 10px 9px 10px;
 	font-size:10px; font-style:normal; font-weight:bold; text-decoration:none; color:#215A19;
@@ -1564,7 +1579,7 @@ div.blockheader{
 	margin: 0px;
 	padding: 2px 5px;
 
-	/* background: url(/templates/mxp/images/cornerr.gif) top right no-repeat; */
+	/* background: url(/styles/mxp/images/cornerr.gif) top right no-repeat; */
 }
 
 #leftcol div.blockheader{
@@ -1577,7 +1592,7 @@ div.blockheader{
 
 	color: #333;
 	/* background-color: #215A19; */
-	background: transparent url('/templates/mxp/images/theme/blockheader.gif') no-repeat;
+	background: transparent url('/styles/mxp/images/theme/blockheader.gif') no-repeat;
 
 	padding: 6px 5px;
 }
@@ -1983,7 +1998,7 @@ img.shadow	{
 }
 
 #leftcol ul a {
-	/* background: #ffffff url(/modules/mx_navmenu/templates/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
+	/* background: #ffffff url(/modules/mx_navmenu/styles/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
 	background: #ffffff;
 	border: none;
 	color: #215A19;
@@ -1996,14 +2011,14 @@ img.shadow	{
 }
 
 #leftcol ul a:hover {
-	/* background: #efefef url(/modules/mx_navmenu/templates/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
+	/* background: #efefef url(/modules/mx_navmenu/styles/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
 	background: #efefef;
 	border: none;
 	color: #215A19;
 }
 
 #leftcol li#cattitle a {
-	/* background: #ffffff url(/modules/mx_navmenu/templates/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
+	/* background: #ffffff url(/modules/mx_navmenu/styles/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
 	background: #ffffff;
 	color: #215A19;
 	font-weight: bold;
@@ -2011,7 +2026,7 @@ img.shadow	{
 }
 
 #leftcol li#cat a {
-	/* background: #ffffff url(/modules/mx_navmenu/templates/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
+	/* background: #ffffff url(/modules/mx_navmenu/styles/samSkolan3/images/arrow_right.gif) 5px 50% no-repeat; */
 	background: #326B2A;
 	color: #ffffff;
 	font-weight: bold;
@@ -2024,7 +2039,7 @@ img.shadow	{
 *
 */
 a.genericbutton {
-    background: transparent url('/templates/mxp/images/buttons/createbutton_a.gif') no-repeat scroll top right;
+    background: transparent url('/styles/mxp/images/buttons/createbutton_a.gif') no-repeat scroll top right;
     color: #326030;
     display: inline-block;
     /*float: left;*/
@@ -2037,7 +2052,7 @@ a.genericbutton {
 }
 
 a.genericbutton span {
-    background: transparent url('/templates/mxp/images/buttons/createbutton_span.gif') no-repeat;
+    background: transparent url('/styles/mxp/images/buttons/createbutton_span.gif') no-repeat;
     display: inline-block;
     line-height: 12px;
     padding: 4px 0 4px 14px;
@@ -2674,14 +2689,20 @@ pre {
 }
 
 /* The largest text used in the index page title and toptic title etc. */
-.maintitle,h1,h2	{
-			font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
-			text-decoration: none; line-height : 120%; color : #000000;
+.maintitle, h1, h2	{
+			font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 }
 
+.maintitle, h2 {
+	font-weight: bold;
+	font-size: 120%;
+	text-decoration: none; 
+	line-height: 120%; 
+	margin: 0.8em 0 0.2em 0;
+}
 
 /* Form elements */
-input,textarea, select {
+input, textarea, select {
 	color : #000000;
 	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
 	border-color : #000000;

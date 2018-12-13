@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #50736c;
+	color: #353B35;
 	background-color: #f4f9f8;
 }
 
@@ -13,12 +13,12 @@ h1 {
 }
 
 h2 {
-	color: #253631;
+    color: #253631;
 }
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #178157;
+    color: #45543e;
 }
 
 h4 {
@@ -44,7 +44,7 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 a { color: #326030; }
-a:hover { color: #309307; }
+a:hover { color: #DD6900; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -105,7 +105,7 @@ a:hover { color: #309307; }
 	/* text-align: center; */
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	line-height: 85%;
-	background: #ffffff url(/templates/mxp/images/theme/bg.gif) top left repeat-x;
+	background: #ffffff url(/styles/mxp/images/theme/bg.gif) top left repeat-x;
 	/*background: #f0f0f0;*/	
 	/**/background-image: -webkit-linear-gradient(top, #187E1F 0%, #094F0E 100%);/**/
 	/**/background-image: linear-gradient(to bottom, #AAC9AB 0%,#19451D 100%);/**/
@@ -1184,3 +1184,201 @@ li.notification-reported strong, li.notification-disapproved strong {
 	background-color: #309307;
 	color: #ffffff;
 }
+
+.fa-bbcode {
+	color: #FF0000;
+	font-size: 20px;
+}
+
+.fa-facebook-official {
+	font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+    filter: progid:DXImageTransfor, endColorstr='#3C5A99',GradientType=0 ); /* IE6-9 */
+}
+
+.fa-facebook-official:hover {
+	font-size: 120%;
+	color: #4862A3;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+}
+
+.fa-youtube {
+	font-size: 168%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border: 0;
+    transition: width 2s;
+    filter: progid:DXImageTransfor, endColorstr='red',GradientType=0 ); /* IE6-9 */
+}
+
+.fa-youtube:hover {
+	font-size: 168%;
+	color: red;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border: 0;
+    transition: width 2s;
+}
+
+.fa-instagram {
+	font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 1px;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.3rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+    filter: progid:DXImageTransfor, endColorstr='#D82667',GradientType=0 ); /* IE6-9 */
+}
+
+.fa-instagram:hover {
+	font-size: 120%;
+	color: #D82667;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 1px;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.3rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+}
+
+.fa-twitter {
+	font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+    filter: progid:DXImageTransfor, endColorstr='#00ACEE',GradientType=0 ); /* IE6-9 */
+}
+
+.fa-twitter:hover {
+	font-size: 120%;
+	color: #00ACEE;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 0.1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+}
+
+.fa-google-plus-official {
+	font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+    filter: progid:DXImageTransfor, endColorstr='#DE5549',GradientType=0 ); /* IE6-9 */
+}
+
+.fa-google-plus-official:hover {
+	font-size: 120%;
+	color: #DE5549;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 128%;
+    min-width: 120%;
+    background: trasparent;
+    height: 128%;
+    line-height: 100%;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(64, 150, 32, 0.8) inset;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF inset;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.8, 52, 52, 1);
+}
+
