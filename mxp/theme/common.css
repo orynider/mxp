@@ -8,13 +8,14 @@ html {
 /* Fix for centering the container in IE */
 body{
 	/* text-align: center; */
-	margin: 0px;
-	padding: 0px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	line-height: 75%/150%;
-	text-align: justify;
+	font-size: 11px;	
+	line-height: 75%/150%;	
 	margin: 0px auto;
-	font-size: 12.5px;
+	padding: 0px;
+	word-wrap: break-word;
+	-webkit-print-color-adjust: exact;	
+	text-align: justify;
 	background-image: url(/styles/mxp/images/theme/bg.gif) top left repeat-x;
 	/*background: #f0f0f0;*/
 
