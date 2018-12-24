@@ -77,8 +77,8 @@
 <script src="{T_TEMPLATE_PATH}/sidebar.js"></script>
 <!-- ENDIF -->
 <!-- IF $LB_COLLAPSIBLE_CATEGORIES -->
-<script type="text/javascript" src="{T_TEMPLATE_PATH}/jquery.collapse.js"></script>
-<script type="text/javascript">
+<script  src="{T_TEMPLATE_PATH}/jquery.collapse.js"></script>
+<script>
         $(".forumlist").collapse({show: function(){
                 this.animate({
                     opacity: 'toggle',
@@ -98,7 +98,7 @@
 <!-- INCLUDEJS forum_fn.js -->
 <!-- INCLUDEJS ajax.js -->
 <!-- IF S_ALLOW_CDN -->
-	<script type="text/javascript">
+	<script>
 		(function($){
 			var $fa_cdn = $('head').find('link[rel="stylesheet"]').first(),
 				$span = $('<span class="fa" style="display:none"></span>').appendTo('body');
