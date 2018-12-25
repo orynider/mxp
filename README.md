@@ -5,7 +5,7 @@ Original author: OryNider, using prosilver syle as a base.
 This is an green colors responsive style for phpBB and MXP.
 
 
-phpBB Version: 3.2.4 Style Version: 3.2.4 
+phpBB Version: 3.2.5 Style Version: 3.2.5 
 
 Screenshots: Image 
 
