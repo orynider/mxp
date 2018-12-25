@@ -132,13 +132,13 @@ fieldset.quick-login input.inputbox {
 /* Standard */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #000;
+	color: #5d4814;
 	background: #FFF;
  	font-size: 12.5px; 
 }
 
 a { 
-color: #FF0000; 
+color: #415F1D;
 text-decoration: none;
 font-weight: bold;
 }
@@ -154,7 +154,7 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #f62e46;
+	color: #3c513c;
 	padding: 4px; margin: 0px;
 }
 
@@ -217,26 +217,24 @@ font: 9px tahoma, verdana, arial, helvetica, sans-serif;
 	color: lightblue;
 	font-style: italic; 
 }
-.button{
-margin:2px 2px;
-background: #F4F4F4;
-border: #39393b 1px solid;
-color: #000;
-font: 9px verdana, tahoma, arial, helvetica, sans-serif;
-text-align:center;
+
+.button {
+	padding: 2px 8px;
+	border: #257822 1px solid;
+	color: #094F0E;
+	font: 9px "Open Sans", "Droid Sans", verdana, tahoma, arial, helvetica, sans-serif;
+	text-align:center;
 }
 
 .button.search {
-	color: black;
 	background: none;
 	border: 0px;
 	background-repeat: no-repeat;
-	color: #DADADA;
+	color: transparent;
 	width: 50px; height: 19px;
 	padding: 0px; margin: 0px; margin-right: 5px;
 }
 .button.search:hover {
-	color: white;
 	background: none;
 	border: 0px;
 	background-repeat: no-repeat;
@@ -246,17 +244,14 @@ text-align:center;
 
 .button {
 	cursor: pointer;
-	background: white;
-	border: 1px solid gray;
-	color: black;
-	margin: 0px; padding: 2px;
+	border: 1px solid #257822;
 }
 
 .button:hover {
 	background: #DADADA;
 }
 .button:active {
-	border: 1px solid red;
+	border: 1px solid #257822;
 }
 
 a.forumlink {
@@ -317,9 +312,9 @@ border-bottom:  0px solid #CCC;
 }
 
 .headerbar {
-    background-color: #3C094F;
+    background-color: #257822;
     background-image: -webkit-linear-gradient(top, #63187E 0%, #3C094F 100%);
-    background-image: linear-gradient(to bottom, #29202C 0%,#310242 100%);
+    background-image: linear-gradient(to bottom, #9EA8AB 0%,#024217 100%);
 }
 
 .toplogo {
@@ -331,11 +326,10 @@ border-bottom:  0px solid #CCC;
 	/*background: #f0f0f0;*/	
 }
 
-
 .forabg, .forumbg {
-	background-color: #3C094F;
-	background-image: -webkit-linear-gradient(top, #89529E 0%, #3C094F 35px, #3C094F 100%);
-	background-image: linear-gradient(to bottom, #89529E 0%,#3C094F 35px,#3C094F 100%);
+    background-color: #6d7a6d;
+    background-image: -webkit-linear-gradient(top, #63187E 0%, #024217 100%);
+    background-image: linear-gradient(to bottom, #5D875E 0%, #0F635D 100%);
 }
 
 .pollbar1, .pollbar2, .pollbar3, .pollbar4 {

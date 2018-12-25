@@ -6,14 +6,14 @@
 fieldset {
 	border-width: 0;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.0em;
 }
 
 input {
 	font-weight: normal;
 	vertical-align: middle;
 	padding: 0 3px;
-	font-size: 1em;
+	font-size: 12px;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -395,7 +395,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	border-right-width: 0;
 	border-radius: 4px 0 0 4px;
 	float: left;
-	height: 24px;
+	max-height: 24px;
 	padding: 3px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

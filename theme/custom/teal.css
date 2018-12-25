@@ -132,7 +132,7 @@ fieldset.quick-login input.inputbox {
 
 /* Standard */
 body {
-	color: #12A3EB;
+	color: #416C81;
 	background-color: #F5F5F5;
 	font: 75%/150% Arial, Helvetica, sans-serif; 
 	text-align: justify;
@@ -142,7 +142,7 @@ body {
 }
 
 a {
-	color: #12A3EB;
+	color: #087AB3;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -159,7 +159,7 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #0076B1;
+	color: #373F44;
 	padding: 4px; margin: 0px;
 }
 
@@ -324,16 +324,15 @@ border-bottom:  0px solid #CCC;
 }
 
 #loader {
-	background-color: #fff;
+	background-color: #12A3EB;
 	border: 1px solid #eaaecd;
 }
 
-
 .headerbar {
-    background-color: #3C094F;
-    background-image: -webkit-linear-gradient(top, #63187E 0%, #3C094F 100%);
-    background-image: linear-gradient(to bottom, #050006 0%,#59525c 100%);
-	background-repeat: repeat-x;
+    background-color: #1A3565;
+    background-image: -webkit-linear-gradient(top, #9Eb6d7 0%, #0d386b 35px, #0d386b 100%);
+    background-image: linear-gradient(to bottom, #4862A3 0%,#769cc8 35px,#0d386b 100%);
+    background-repeat: repeat-x;
 }
 
 .toplogo {

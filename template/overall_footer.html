@@ -76,7 +76,7 @@
 <!-- IF $MXP_RIGHT_SIDEBAR and S_REGISTERED_USER and S_DISPLAY_PM and S_NOTIFICATIONS_DISPLAY -->
 <script src="{T_TEMPLATE_PATH}/sidebar.js"></script>
 <!-- ENDIF -->
-<!-- IF $LB_COLLAPSIBLE_CATEGORIES -->
+<!-- IF $MXP_COLLAPSIBLE_CATEGORIES -->
 <script  src="{T_TEMPLATE_PATH}/jquery.collapse.js"></script>
 <script>
         $(".forumlist").collapse({show: function(){
@@ -156,7 +156,7 @@
 <!-- INCLUDEJS collapsiblecategories.js -->
 <!-- ENDIF -->
 
-<!-- IF $LB_STICKY_HEADER -->
+<!-- IF $MXP_STICKY_HEADER -->
 <!-- INCLUDEJS sticky_footer.min.js -->
 <script>
 	$('.footerwrap').stickyFooter();

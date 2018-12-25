@@ -31,7 +31,7 @@ width: 1000px;
 margin: 0px auto;
 padding: 0px;
 padding-bottom: 1px;
-background: black;
+background: #324134;
 border-left: 0px solid #000;
 border-right: 0px solid #000;
 border-bottom: 0px solid #000;
@@ -140,7 +140,7 @@ fieldset.quick-login input.inputbox {
 
 /* Standard */
 body {
-	color: black;
+	color: #324134;
 	background: #F3F3F3;
 	font: 75%/150% Arial, Helvetica, sans-serif; 
 	text-align: justify;
@@ -150,7 +150,7 @@ body {
 }
 
 a {
-	color: black;
+	color: #324134;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -241,7 +241,7 @@ text-align:center;
 }
 
 .button.search {
-	color: black;
+	color: #324134;
 	background: none;
 	border: 0px;
 	background-repeat: no-repeat;
@@ -266,7 +266,7 @@ text-align:center;
 	cursor: pointer;
 	background: white;
 	border: 1px solid gray;
-	color: black;
+	color: #324134;
 	margin: 0px; padding: 2px;
 }
 
@@ -335,9 +335,9 @@ border-bottom:  0px solid #CCC;
 }
 
 .headerbar {
-    background-color: #3C094F;
+    background-color: #060E0C;
     background-image: -webkit-linear-gradient(top, #63187E 0%, #3C094F 100%);
-    background-image: linear-gradient(to bottom, #050006 0%,#59525c 100%);
+    background-image: linear-gradient(to bottom, #0d0f09 0%,#777 100%);
 }
 
 .toplogo {

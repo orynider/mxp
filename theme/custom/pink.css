@@ -132,7 +132,7 @@ fieldset.quick-login input.inputbox {
 
 /* Standard */
 body {
-	color: #dd1279;
+	color: #5d3f4e;
 	background-color: #F3F3F3;
 	font-family: OpenSansCondensedLight, Arial ;
 	text-align: justify;
@@ -160,7 +160,7 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #dd1279;
+	color: #3d2b7a;
 	padding: 4px; margin: 0px;
 }
 
@@ -330,10 +330,10 @@ border-bottom:  0px solid #CCC;
 }
 
 .headerbar {
-	background-color: #4F093E;
-	background-image: -webkit-linear-gradient(top, #7E1866 0%, #4F093E 100%);
-	background-image: linear-gradient(to bottom, #7E1866 0%,#4F093E 100%);
-	background-repeat: repeat-x;
+    background-color: #F6A5E2;
+    background-image: -webkit-linear-gradient(top, #7E1866 0%, #4F093E 100%);
+    background-image: linear-gradient(to bottom, #FF6BDC 0%,#4F093E 100%);
+    background-repeat: repeat-x;
 }
 
 .toplogo {
@@ -348,10 +348,10 @@ border-bottom:  0px solid #CCC;
 
 .forabg, .forumbg {
 	background-color: #4F093E;
-	background-image: -webkit-linear-gradient(top, #9E528C 0%, #4F093E 35px, #4F093E 100%);
-	background-image: linear-gradient(to bottom, #9E528C 0%,#4F093E 35px,#4F093E 100%);
+    background-image: -webkit-linear-gradient(top, #7E1866 0%, #4F093E 100%);
+    background-image: linear-gradient(to bottom, #FF6BDC 0%,#4F093E 100%);
+    background-repeat: repeat-x;
 }
-
 .pollbar1 {
 	background-color: #AA2346;
 }

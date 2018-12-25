@@ -132,7 +132,7 @@ fieldset.quick-login input.inputbox {
 
 /* Standard */
 body {
-	color: #f60;
+	color: #725039;
 	background-color: #FFF;
 	font: 75%/150% Arial, Helvetica, sans-serif; 
 	text-align: justify;
@@ -142,7 +142,7 @@ body {
 }
 
 a { 
-color: #FF0000; 
+color: #AB4300;
 text-decoration: none;
 font-weight: bold;
 }
@@ -156,8 +156,13 @@ a:active {
 	color: #BF414C;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h6 {
 	color: #f60;
+	padding: 4px; margin: 0px;
+}
+
+h2, h3, h4, h5 {
+	color: #995324;
 	padding: 4px; margin: 0px;
 }
 
@@ -306,9 +311,9 @@ border-bottom:  0px solid #CCC;
 }
 
 .headerbar {
-	background-color: #4F0E09;
-	background-image: -webkit-linear-gradient(top, #7E1F18 0%, #4F0E09 100%);
-	background-image: linear-gradient(to bottom, #7E1F18 0%,#4F0E09 100%);
+    background-color: #E38B4B;
+    background-image: -webkit-linear-gradient(top, #9E5752 0%, #4F0E09 35px, #4F0E09 100%);
+    background-image: linear-gradient(to bottom, #3C1D02 0%,#543928 35px,#AE460D 100%);
 }
 
 .toplogo {
@@ -321,9 +326,9 @@ border-bottom:  0px solid #CCC;
 }
 
 .forabg, .forumbg {
-	background-color: #4F0E09;
-	background-image: -webkit-linear-gradient(top, #9E5752 0%, #4F0E09 35px, #4F0E09 100%);
-	background-image: linear-gradient(to bottom, #9E5752 0%,#4F0E09 35px,#4F0E09 100%);
+    background-color: #4F1D09;
+    background-image: -webkit-linear-gradient(top, #9E5752 0%, #4F0E09 35px, #4F0E09 100%);
+    background-image: linear-gradient(to bottom, #9E7552 0%,#4F2209 35px,#4F0E09 100%);
 }
 
 .pollbar1, .pollbar2, .pollbar3, .pollbar4 {
