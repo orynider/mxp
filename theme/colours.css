@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #353B35;
+	color: #50736c;
 	background-color: #f4f9f8;
 }
 
@@ -13,12 +13,12 @@ h1 {
 }
 
 h2 {
-    color: #253631;
+	color: #253631;
 }
 
 h3 {
 	border-bottom-color: #CCCCCC;
-    color: #45543e;
+	color: #178157;
 }
 
 h4 {
@@ -31,6 +31,7 @@ h5 {
 
 h6 {
 	color: #FFFFFF;
+	font-size: 11px;
 }
 
 hr {
@@ -44,7 +45,7 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 a { color: #326030; }
-a:hover { color: #DD6900; }
+a:hover { color: #309307; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -93,11 +94,12 @@ a:hover { color: #DD6900; }
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-
+	background-color: #FFF;
+	border-color: #E6E9ED;
 }
 
 .headerbar {
-
+	color: #FFFFFF;
 }
 
 .headerbar, .forumbg {
@@ -163,7 +165,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/site_logo.svg");
 }
 
 .toplogo {
@@ -693,6 +695,11 @@ Colours and backgrounds for buttons.css
 
 .search-header {
 	box-shadow: 0 0 10px #0a9542;
+}
+
+.search-results li:hover,
+.search-results li.active {
+	background-color: #CFE1F6;
 }
 
 /* Icon images
