@@ -37,7 +37,7 @@ ul.topiclist dd {
 }
 
 ul.topiclist dt {
-	font-size: 11px;
+	font-size: 9px;
 	width: 100%;
 	margin-right: -440px;
 }
@@ -247,7 +247,7 @@ dd.redirect,
 dd.moderation,
 dd.time,
 dd.info {
-	font-size: 11px;
+	font-size: 10px;
 	width: 250px;
 }
 
